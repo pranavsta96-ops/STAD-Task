@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Stad">
-  <test thread-count="5" name="Test_RegistrationPage">
+<suite name="Stadsuit">
+  <test thread-count="5" name="TestRun">
     <classes>
       <class name="STADAssignment_AutomationExercise.TC1_RegisterUser"/>
+      <class name="STADAssignment_AutomationExercise.TC3_LoginWithInvalidCredentials"/>
+      <class name="STADAssignment_AutomationExercise.TC4_LogoutUser"/>
+      <class name="STADAssignment_AutomationExercise.TC5_AlreadyRegisteredUserSignIN"/>
+      <class name="STADAssignment_AutomationExercise.TC6_ContactUsForm"/>
+      <class name="STADAssignment_AutomationExercise.TC7_VerifyTestCasePage"/>
+      <class name="STADAssignment_AutomationExercise.TC8_VerifyAllProducts"/>
+      <class name="STADAssignment_AutomationExercise.TC9_LoginUserWithCorrrectCredentials"/>
+     
+      
     </classes>
-  </test> <!-- Test_RegistrationPage -->
-</suite> <!-- Stad -->
+  </test> <!-- TestRun -->
+</suite> <!-- Stadsuit -->

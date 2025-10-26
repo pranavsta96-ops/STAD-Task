@@ -186,5 +186,11 @@ public class TC1_RegisterUser {
 		pause();
 		driver.findElement(By.xpath("//b[normalize-space()='Account Deleted!']")).isDisplayed();
 	}
+	
+	@Test(priority=19)
+	void Validation19()
+	{
+		driver.close();
+	}
 
 }
